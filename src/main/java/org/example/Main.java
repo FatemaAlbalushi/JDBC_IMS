@@ -26,6 +26,7 @@ public class Main {
           System.out.println("New Student Successfully added");
 
           //Read
+          System.out.println("Display all Student :");
           rs = statement.executeQuery("select * from student ;");
           while (rs.next()){
               int id = rs.getInt("id");
